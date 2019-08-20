@@ -1,0 +1,79 @@
+<html lang="en">
+<head> 
+  <title>Organique</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="style.css"  type="text/css">	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+	<nav class="navbar1 navbar-default">
+			<ul class="nav navbar-nav navbar1-left">
+				<form class="navbar-form navbar-left" action="/action_page.php">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Busque por produtos da loja...">
+						<div class="input-group-btn">
+							<button class="btn btn-default" type="submit">
+								<i class="glyphicon glyphicon-search"></i>
+							</button>
+						</div>
+					</div>
+				</form>
+				<li><a href="#">CARRINHO</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-log-in" data-target="#myModal"></span>Login</a></li>
+			</ul>
+	</nav>
+	<div class="jumbotron text-center">
+		<h1>Organique</h1> 
+		 <p>Slogan</p> 
+	</div>
+	
+	<div class="container-fluid">
+  		<div class="row">
+		    <div class="col-sm-6"><br>
+			<label for="nome">Nome Completo:</label>
+			<input type="text" class="form-control" id="nome"><br>
+
+			<label for="nome">CPF:</label>
+			<input type="text" class="form-control" id="cpf"><br>
+
+			<label for="email">Email:</label>
+			<input type="email" class="form-control" id="email"><br>
+
+			<label for="senha">Senha:</label>
+			<input type="password" class="form-control" id="senha"><br>
+
+			<label for="cep">Cep:</label>
+			<input type="text" class="form-control" id="cep"><br>
+			</div>
+		    <div class="col-sm-6"><br>
+			<label for="estado">Estado:</label>
+			<input type="text" class="form-control" id="estado"><br>
+
+			<label for="cidade">Cidade:</label>
+			<input type="text" class="form-control" id="cidade"><br>
+
+			<label for="bairro">Bairro:</label>
+			<input type="text" class="form-control" id="bairro"><br>
+
+			<label for="rua">Rua:</label>
+			<input type="text" class="form-control" id="rua"><br>
+
+			<div class="col-sm-6">
+
+			<label for="numero">Número:</label>
+			<input type="text" class="form-control" id="numero">
+			</div>
+			<div class="col-sm-6">
+			<label for="complemento">Complemento:</label>
+			<input type="text" class="form-control" id="complemento">
+			</div>       
+  		</div>
+	</div>
+	
+  </body>
+</html>
