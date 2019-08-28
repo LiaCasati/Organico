@@ -1,0 +1,27 @@
+// Concertos //
+
+alter table restricao add column img varchar(255) ;
+ALTER TABLE usuario MODIFY  COLUMN cpf bigint;
+
+// Inserts //
+
+insert into categoria(id, nome)
+values(1, 'Frutas e Verduras'),
+      (2, 'Lacínios'),
+      (3, 'Proteinas'),
+      (4, 'Snacks'),
+      (5, 'Bebidas'), 
+      (6, 'Cestas');
+
+insert into restricao(id, tipo)
+values(1, 'sem açucar'),
+      (2, 'sem lactose'),
+      (3, 'sem glúten'),
+      (4, 'vegano'),
+      (5, 'vegetariano'),
+      (6, 'integral'),
+      (7, 'sem gordura trans');
+
+insert into tipo_cont(id, tipo)
+values(1, 'Email'),
+      (2, 'Telefone');
